@@ -1,0 +1,39 @@
+{
+  "fileTypes": ["js", "ts"],
+  "injectionSelector": "L:source -comment -string",
+  "patterns": [
+    {
+      "contentName": "meta.embedded.block.mjml",
+      "begin": "(?x)(\\s*(?:mjml)\\s*)(`)",
+      "beginCaptures": {
+        "1": {
+          "name": "entity.name.function.tagged-template.js"
+        },
+        "2": {
+          "name": "string.js"
+        },
+        "3": {
+          "name": "punctuation.definition.string.template.begin.js"
+        }
+      },
+      "end": "(`)",
+      "endCaptures": {
+        "0": {
+          "name": "string.js"
+        },
+        "1": {
+          "name": "punctuation.definition.string.template.end.js"
+        }
+      },
+      "patterns": [
+        {
+          "include": "source.ts#template-substitution-element"
+        },
+        {
+          "include": "text.html.basic"
+        }
+      ]
+    }
+  ],
+  "scopeName": "inline.mjml"
+}

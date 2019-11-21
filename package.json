@@ -1,0 +1,62 @@
+{
+  "name": "mjml-tag",
+  "displayName": "MJML Tagged Template Literal",
+  "description": "Syntax highlighting for inline MJML tagged template literals",
+  "author": "Konstantin Vyatkin <tino@vtkn.io>",
+  "version": "0.1.0",
+  "preview": true,
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tinovyatkin/vscode-mjml-tag"
+  },
+  "publisher": "tinovyatkin",
+  "homepage": "https://github.com/tinovyatkin/vscode-mjml-tag#readme",
+  "bugs": {
+    "url": "https://github.com/tinovyatkin/vscode-mjml-tag/issues"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#f45e43",
+    "theme": "dark"
+  },
+  "categories": [
+    "Other",
+    "Linters",
+    "Snippets",
+    "Formatters",
+    "Programming Languages"
+  ],
+  "keywords": [
+    "vscode",
+    "mjml",
+    "preview",
+    "lint",
+    "syntax"
+  ],
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "extensionDependencies": [
+    "attilabuti.vscode-mjml"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "injectTo": [
+          "source.js",
+          "source.ts"
+        ],
+        "scopeName": "inline.mjml",
+        "path": "./grammars/mjml.js.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.mjml": "mjml"
+        }
+      }
+    ]
+  },
+  "devDependencies": {
+    "prettier": "latest"
+  }
+}
