@@ -426,10 +426,10 @@ typed-rest-client@1.2.0:
     tunnel "0.0.4"
     underscore "1.8.3"
 
-typescript-mjml-plugin@0.9.12:
-  version "0.9.12"
-  resolved "https://registry.yarnpkg.com/typescript-mjml-plugin/-/typescript-mjml-plugin-0.9.12.tgz#a74fe7a51cac31e76a0fc3afad46847db70fc49b"
-  integrity sha512-je0/hGaDLXbZLvJZGD3EWG3izDaEDFWzMIfmWumjQgRNumBpeD9I9WbhXRiKItJ0KlA3EbBJqeNqYICaQCPfKA==
+typescript-mjml-plugin@0.9.13:
+  version "0.9.13"
+  resolved "https://registry.yarnpkg.com/typescript-mjml-plugin/-/typescript-mjml-plugin-0.9.13.tgz#68d7c4e573a7333259ccc253a70c6922b889f589"
+  integrity sha512-HJMwc7xtom+cZc0XFNB9zWFeBXVTruti7XQ6M6tiFbbmrTUBOlm6dpvhAOseF99oIvq9c0SmB5Vxx/hDuQvB4w==
   dependencies:
     typescript-styled-plugin "^0.13.0"
     typescript-template-language-service-decorator "^2.2.0"

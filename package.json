@@ -110,7 +110,7 @@
     "vsce": "1.69.0"
   },
   "dependencies": {
-    "typescript-mjml-plugin": "0.9.12",
+    "typescript-mjml-plugin": "0.9.13",
     "vscode-styled-components": "https://github.com/styled-components/vscode-styled-components"
   }
 }
