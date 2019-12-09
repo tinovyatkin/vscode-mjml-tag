@@ -1,0 +1,10 @@
+{
+  "fileTypes": [],
+  "injectionSelector": "L:meta.embedded.block.mjml meta.property-value.css",
+  "patterns": [
+    {
+      "include": "source.ts#template-substitution-element"
+    }
+  ],
+  "scopeName": "inline.mjml.style.injection"
+}
