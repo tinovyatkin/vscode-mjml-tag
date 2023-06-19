@@ -107,7 +107,7 @@
   },
   "devDependencies": {
     "prettier": "latest",
-    "vsce": "2.6.7"
+    "vsce": "2.15.0"
   },
   "dependencies": {
     "typescript-mjml-plugin": "0.9.13",
